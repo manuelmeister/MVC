@@ -2,7 +2,7 @@
     "name": "meister/mvc",
     "description": "Derping around with mvc",
     "require": {
-        "mustangostang/spyc": "0.5.1",
+        "symfony/yaml": "2.6.*",
         "twig/twig": "1.6.5"
     },
     "authors": [
