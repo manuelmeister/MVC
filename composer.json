@@ -1,0 +1,15 @@
+{
+    "name": "manuelmeister/mvc",
+    "description": "Derping around with mvc",
+    "require": {
+        "twig/twig": "^2.0@dev",
+        "mustangostang/spyc": "^0.5.0@dev"
+    },
+    "authors": [
+        {
+            "name": "manuelmeister",
+            "email": "news.manuelsworld@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
