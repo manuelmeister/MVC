@@ -2,8 +2,8 @@
     "name": "meister/mvc",
     "description": "Derping around with mvc",
     "require": {
-        "twig/twig": "^2.0@dev",
-        "mustangostang/spyc": "^0.5.0@dev"
+        "mustangostang/spyc": "0.5.1",
+        "twig/twig": "1.6.5"
     },
     "authors": [
         {
