@@ -8,13 +8,13 @@
 
 namespace Meister\MVC\Controller;
 
+use Meister\MVC\View\PageView;
 
 class PageController extends Controller{
 
     public function index($param = array())
     {
-        var_dump($param);
-        echo "<div class='entry'><h2>Artikel ".( (isset($param['slug']))?$param['slug']:$param['id'] ). "</h2></div>";
+        $pageview = new PageView($param);
     }
 
 }
