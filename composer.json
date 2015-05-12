@@ -1,5 +1,5 @@
 {
-    "name": "manuelmeister/mvc",
+    "name": "meister/mvc",
     "description": "Derping around with mvc",
     "require": {
         "twig/twig": "^2.0@dev",
