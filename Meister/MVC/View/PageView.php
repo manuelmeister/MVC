@@ -14,6 +14,7 @@ class PageView extends View{
     function __construct($param)
     {
         parent::__construct();
+
         $template = $this->twig->loadTemplate("page.twig");
         echo $template->render(array(
             'site'  =>  array(

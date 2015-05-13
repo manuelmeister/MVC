@@ -3,7 +3,8 @@
     "description": "Derping around with mvc",
     "require": {
         "symfony/yaml": "2.6.*",
-        "twig/twig": "1.6.5"
+        "twig/twig": "1.6.5",
+        "doctrine/orm": "2.5.*"
     },
     "authors": [
         {
@@ -13,8 +14,8 @@
     ],
     "minimum-stability": "dev",
     "autoload": {
-      "psr-0" : {
-        "Meister\\Guestbook" : ""
+      "psr-4" : {
+        "Meister\\" : ""
       }
     }
 }
